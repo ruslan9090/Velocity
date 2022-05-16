@@ -166,8 +166,6 @@ p {
 
     text-transform: uppercase;
     text-align: center;
-    color: #676770;
-
 }
 
 .section__suptitle {
@@ -180,7 +178,6 @@ p {
 
     text-transform: uppercase;
     text-align: center;
-    color: #8E8E9C;
 }
 
 .section__inner {
@@ -228,13 +225,41 @@ p {
     text-align: center;
 }
 
-.section__text {
-    line-height: 25px;
-}
+.services {
+    padding: 77px 0;
 
-.section--background {
+    color: #FFFFFF;
     background-color: #192024;
 }
+
+.service__title {
+    margin-bottom: 17px;
+
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    line-height: 36px;
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service__suptitle {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: 
+    #E8E8E8;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 .blog {
     display: flex;
@@ -267,6 +292,7 @@ p {
     font-size: 20px;
     font-weight: 400;
     font-family:'Open Sans', sans-serif;
+
     text-align: center;
     letter-spacing: 7px;
     text-transform: uppercase;
@@ -351,7 +377,7 @@ p {
 
 
 .footer {
-        
+    padding: 0 15px;
 }
 
 .footer__inner {
@@ -377,7 +403,7 @@ p {
 
 
 .footer__col {
-    width: 30%;
+    width: 33%;
 }
 
 .footer__title {
@@ -392,28 +418,6 @@ p {
     text-transform: uppercase;
 }
 
-.footer__social {
-    display: flex;
-    margin-bottom: 21px;
-
-    font-family:'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color:#676770;
-
-    line-height: 20px;
-    letter-spacing: 4px;
-
-    text-transform: uppercase;
-}
-
-.footer__icons {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
 .footer__text {
     width: 300px;
 
@@ -427,7 +431,6 @@ p {
     margin-bottom: 6px;
     padding-bottom: 12px;
 
-    width: 319px;
     font-size: 13px;
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
@@ -436,6 +439,14 @@ p {
     color: #668CAD;
     
     border-bottom: 1px solid #ccc;
+}
+
+.footer__social {
+    flex-wrap: wrap;
+}
+
+.footer__icon {
+    width: 300px;
 }
 
 .copyright {
