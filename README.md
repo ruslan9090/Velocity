@@ -1,6 +1,4 @@
-# Velocity
-Velocity__site
-
+# Velocity__site
 
 -Website validation check<br>-Semantic use of tags<br>-Semantic attribute names
 <hr> 
