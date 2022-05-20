@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-
 body {
     margin: 0;
 
@@ -94,12 +93,10 @@ p {
     background: url(../images/fon.jpg) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-
 }
 
 .intro__inner {
     width: 100%;
-    /* max-width: 529px; */
     margin: 0 auto;
 
     text-align: center;
@@ -131,7 +128,6 @@ p {
     text-align: center;
 
     transition: background .1s linear;
-
 }
 
 .btn:hover {
@@ -204,7 +200,6 @@ p {
 }
 
 .section__title--text {
-    
     margin-bottom: 14px;
 
     font-weight: 400;
@@ -215,7 +210,6 @@ p {
 }
 
 .section__text {
-
     font-size: 14px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
@@ -260,7 +254,6 @@ p {
     text-align: center;
 }
 
-
 .blog {
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +290,6 @@ p {
     letter-spacing: 7px;
     text-transform: uppercase;
     color: #FFFFFF;
-    
 }
 
 .blog__text {
@@ -310,13 +302,6 @@ p {
     line-height: 25px;
     color: #FFFFFF;
 }
-
-
-/* .reviews {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 52px;
-} */
 
 .reviews__btn--inner {
     display: flex;
@@ -375,7 +360,6 @@ p {
     background: #2E80B6;
 }
 
-
 .footer {
     padding: 0 15px;
 }
@@ -420,19 +404,18 @@ p {
     font-size: 13px;
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
-    
+
+    width: 300px;
     line-height: 20px;
     color: #668CAD;
     
     border-bottom: 1px solid #ccc;
-
-    width: 300px;
 }
 
 .footer__social {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
 
     padding-bottom: 34px;
 }
@@ -445,16 +428,17 @@ p {
     vertical-align: text-bottom;
 }
 
-hr {
-    color: #eee;
-}
-
 .footer__soc--name {
-    font-size: 13px;
+    margin-left: 10px;
+
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
-    
-    color: #668CAD;
+    line-height: 20px;
+    color:#668CAD;
+}
+
+hr {
+    width:90%;border:0;margin-left:30px;background:#ccc;height:1px;
 }
 
 .copyright {
